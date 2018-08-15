@@ -8,4 +8,5 @@ task :console do
 end
 
 task :environment do 
-  require 
+  require_relative './config/environment'
+end
